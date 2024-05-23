@@ -6,9 +6,6 @@
 html {
   scroll-behavior: smooth;
 }
-ul li {
-  margin-left: 30px;
-}
 .page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,6 +100,11 @@ ul li {
 .main__content__parameters-header {
   text-align: center;
 }
+.main__content__parameters-list-item-list-item,
+.main__content__parameters-watching-list-item,
+.main__content__parameters-price-list-item {
+  margin-left: 25px;
+}
 .main__content__parameters-list-item--price {
   display: inline-block;
   font-size: 24px;
@@ -147,6 +149,12 @@ ul li {
 }
 
 /* ___________________ media */
+@media (max-width: 700px) {
+  .main__content__parameters-list-item-enter {
+    display: block;
+    margin-left: 17px;
+  }
+}
 @media (max-width: 660px) {
   .header__container {
     flex-direction: column;
@@ -163,12 +171,19 @@ ul li {
     margin: 0 15px;
   }
   .main__content__address-wrapper {
+    text-align: left;
   }
   .main__content__address {
+    text-align: left;
   }
   ul li {
     text-align: left;
-    margin-left: 10px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .main__content {
+    font-size: 16px;
   }
 }
 @media (max-width: 510px) {
@@ -205,6 +220,11 @@ ul li {
   }
   .main__content__parameters-list-item--price {
     font-size: 18px;
+  }
+  .main__content__parameters-list-item-list-item,
+  .main__content__parameters-watching-list-item,
+  .main__content__parameters-price-list-item {
+    margin-left: 0px;
   }
 }
 .--visible {
