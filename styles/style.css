@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import "./variables.css";
+@import "./scrollbar.css";
 
+/* ___________________ general */
 html {
   scroll-behavior: smooth;
 }
@@ -23,6 +25,7 @@ ul li {
   max-width: 700px;
   margin: 0 30px;
 }
+/* ___________________ header */
 .header {
   width: 100%;
   display: flex;
@@ -56,10 +59,8 @@ ul li {
   display: flex;
   flex-direction: column;
 }
-.main {
-}
-.main__content {
-}
+
+/* ___________________ main */
 .main__content__header {
   font-weight: 700;
   font-style: normal;
@@ -68,15 +69,8 @@ ul li {
   line-height: 34px;
   font-family: var(--header-font-family);
 }
-.main__content__address-wrapper {
-}
-.main__content__address {
-}
-.main__content__address-date {
-}
-.main__content__parameters {
-}
 .main__content__parameters-header {
+  text-align: center;
   font-weight: 700;
   font-style: normal;
   font-size: var(--header-font-size);
@@ -86,22 +80,6 @@ ul li {
 }
 .main__content__parameters-card-wrapper {
   margin: 25px 0;
-}
-.main__content__parameters-list {
-}
-.main__content__parameters-list-item {
-}
-.main__content__parameters-watching-list {
-}
-.main__content__parameters-watching-list-item {
-}
-.main__content__parameters-list-item-list {
-}
-.main__content__parameters-list-item-list-item {
-}
-.main__content__parameters-price-list {
-}
-.main__content__parameters-price-list-item {
 }
 .main__content__img-wrapper {
   margin-top: 25px;
@@ -130,38 +108,7 @@ ul li {
   margin-top: 10px;
 }
 
-/* scrollbar */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", serif, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Для WebKit-браузеров (например, Safari и Chrome) */
-::-webkit-scrollbar {
-  width: 10px; /* Ширина скролла */
-}
-
-::-webkit-scrollbar-track {
-  background-color: #fff; /* Цвет фона трека скролла */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: lightgray; /* Цвет ползунка скролла */
-}
-
-/* Для Firefox */
-* {
-  scrollbar-width: thin; /* Толщина скролла */
-  scrollbar-color: lightgray #fff; /* Цвет ползунка и трека скролла */
-}
-
+/* ___________________ media */
 @media (max-width: 660px) {
   .header__container {
     flex-direction: column;
