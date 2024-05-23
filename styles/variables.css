@@ -1,0 +1,11 @@
+:root {
+  --background-color: #fff;
+  --main-font-color: rgba(0, 0, 0, 0.8);
+  --sub-font-color: lightgray;
+  --header-font-size: 32px;
+  --main-font-family: "Times New Roman", sans-serif;
+  --header-font-family: "Lucida Grande", "Arial", sans-serif;
+  --header-font-size: 32px;
+  --font-size: 20px;
+  --line-height: 1.58;
+}
