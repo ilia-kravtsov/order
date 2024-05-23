@@ -89,7 +89,6 @@ ul li {
 }
 
 /* ___________________ main */
-/* Общие стили для заголовков */
 .main__content__header,
 .main__content__parameters-header {
   font-weight: 700;
@@ -191,7 +190,7 @@ ul li {
     font-size: 16px;
   }
   ul li {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .main__content__parameters-list-item--price-amount {
     width: 100%;
