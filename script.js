@@ -1,4 +1,3 @@
-console.log(1);
 const usePhotoSlider = () => {
   new Swiper(".swiper", {
     direction: "horizontal",
