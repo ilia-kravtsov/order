@@ -235,6 +235,12 @@ html {
   .main__content__parameters-price-list-item {
     margin-left: 0px;
   }
+  .main__content__header {
+    font-size: 20px;
+  }
+  .main__content__parameters-header {
+    font-size: 20px;
+  }
 }
 .--visible {
   display: flex;
