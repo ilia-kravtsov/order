@@ -149,6 +149,14 @@ html {
 }
 
 /* ___________________ media */
+@media (max-width: 750px) {
+  .swiper {
+    width: 88vw;
+    width: -moz-calc(88vw);
+    width: -webkit-calc(88vw);
+    width: calc(88vw);
+  }
+}
 @media (max-width: 700px) {
   .main__content__parameters-list-item-enter {
     display: block;
@@ -229,4 +237,22 @@ html {
 }
 .--visible {
   display: flex;
+}
+
+/* ____________________ swiper */
+.swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+.swiper-pagination {
+  margin-bottom: 5px;
+}
+
+.swiper-scrollbar {
+  --swiper-scrollbar-bg-color: var(lightgrey);
+  --swiper-scrollbar-drag-bg-color: var(--main-font-color);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--main-font-color);
 }
