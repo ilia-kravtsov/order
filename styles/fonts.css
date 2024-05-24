@@ -27,3 +27,27 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* _______________________________________________ FuturalPT */
+
+@font-face {
+  font-family: "FuturalPT";
+  src: local("FuturalPT Medium"), local("FuturalPT-Medium"),
+    url("../assets/fonts/futural_pt/FuturaPT-Medium.woff2") format("woff2"),
+    url("../assets/fonts/futural_pt/FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* _______________________________________________ Poppins */
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("../assets/fonts/poppins/Poppins-Medium.woff2") format("woff2"),
+    url("../assets/fonts/poppins/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
