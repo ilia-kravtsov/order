@@ -154,6 +154,8 @@ html {
 }
 .--margin_top {
 }
+.--margin-bottom {
+}
 
 /* ___________________ media */
 @media (max-width: 750px) {
@@ -182,6 +184,9 @@ html {
   }
   .--margin_top {
     margin-top: 10px;
+  }
+  .--margin-bottom {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 660px) {
