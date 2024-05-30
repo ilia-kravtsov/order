@@ -247,13 +247,15 @@ html {
     display: inline-block;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .contacts {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+}
+@media (max-width: 450px) {
   .main__content__parameters-list-item--price {
     font-size: 18px;
   }
