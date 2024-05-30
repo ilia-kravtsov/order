@@ -70,6 +70,15 @@ html {
   display: flex;
   justify-content: space-between;
 }
+.messenger__icon {
+  transition: transform 0.3s;
+}
+.messenger__icon:hover {
+  transform: scale(1.1);
+}
+.messenger__icon:active {
+  transform: scale(0.97);
+}
 .contacts {
   background-color: var(--contact-bg-color);
   padding: 10px;
